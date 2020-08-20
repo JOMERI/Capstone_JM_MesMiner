@@ -8,10 +8,15 @@ The 2019 coronavirus pandemic outbreak has been an unprecedented health risk eve
 This would facilitate the transfer of the new dataset into current interactome databases with the aim to facilitate analysis and ease the finding of new potential interactions that are not currently been investigated. At this stage, only abstracts were analysed, future steps will include the analysis of the whole manuscript and to extract the quantitative data from each publication. Scispacy, an natural processing language (NLP) library was used to identify biological terms, gene, drugs, and gene regulations. By combing this with molecular biology datasets a fine curated dataset with the most frequent gene and drugs mentioned in the COVID-19 dataset can be developed. This method combined with machine learning pipelines could represent a great tool to accelerate translational research.
 
 This project is divided in four Jupiter notebooks:
+
 •	Data processing
+
 •	Gene and drugs references
+
 •	Scispacy
+
 •	Visualisation
+
 The first notebook covers the data processing from the CORD-19 dataset (https://www.semanticscholar.org/cord19). The major aim of this notebook is to clean the data, create a tag of publication type (preprint/peer-reviewed) and to lemmatise the abstract in preparation to the NLP. This notebook also includes a visualisation of the type of publication over time. The data used for this project was obtained from the metadata.csv file from the CORD-19 2020-08-05 release
  (https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html) 
 Gene and drugs references notebook focuses in creating a dictionary with a standardised nomenclature for a given gene or drug. It would be possible then to search for name variations of a given term and unify its nomenclature for frequency counts.
