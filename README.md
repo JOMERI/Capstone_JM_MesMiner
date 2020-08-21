@@ -29,3 +29,5 @@ Gene and drugs references notebook focuses in creating a dictionary with a stand
 Next, the Scispacy notebook will perform the NLP from each abstract of the dataset and identify biological related entities, genes and drugs named in a given abstract. In addition, a basic gene regulation identification was performed by looking for common terms used to describe gene regulation in the surrounding text of an identified gene. This process creates a new processed dataset for many potential downstream applications. 
 
 Finally, the visualisation notebook allows the user to visualise and export the top genes, drugs and gene regulation. In addition, this notebook allows a custom search of the dataset to search for specific biological terms or type of publication prior finding the top entities.
+
+![Gene_drugs_visualization](https://user-images.githubusercontent.com/58293705/90867022-a916ed00-e38c-11ea-8eec-d0d5a8159b66.png)
