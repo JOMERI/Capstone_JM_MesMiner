@@ -22,7 +22,7 @@ Notebooks contain annotations
 The first notebook covers the data processing from the CORD-19 dataset (https://www.semanticscholar.org/cord19). The major aim of this notebook is to clean the data, create a tag of publication type (preprint/peer-reviewed) and to lemmatise the abstract in preparation to the NLP. This notebook also includes a visualisation of the type of publication over time. The data used for this project was obtained from the metadata.csv file from the CORD-19 2020-08-05 release
  (https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html) 
 
-Gene and drugs references notebook focuses in creating a dictionary with a standardised nomenclature for a given gene or drug. It would be possible then to search for name variations of a given term and unify its nomenclature for frequency counts.
+Gene and drugs references notebook focuses in creating a dictionary with a standardised nomenclature for a given gene or drug. It would be possible then to search for name variations of a given term and unify its nomenclature for frequency counts. The drug database was downloaded via Drugbank (https://www.drugbank.ca/releases/latest) whereas the gene database was downloaded from SNAP (https://snap.stanford.edu/biodata/datasets/10022/10022-G-SynMiner.html)
 
 Next, the Scispacy notebook will perform the NLP from each abstract of the dataset and identify biological related entities, genes and drugs named in a given abstract. In addition, a basic gene regulation identification was performed by looking for common terms used to describe gene regulation in the surrounding text of an identified gene. This process creates a new processed dataset for many potential downstream applications. 
 
