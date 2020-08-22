@@ -17,6 +17,7 @@ This project is divided in four Jupiter notebooks with annotations as a guide:
 Notebooks contain annotations
 
 A running version of the visualisation can be foud here:
+
 https://www.kaggle.com/josemeseguer/mes-miner-text-mining-for-genes-drugs-cord-19
 
 The first notebook covers the data processing from the CORD-19 dataset (https://www.semanticscholar.org/cord19). The major aim of this notebook is to clean the data, create a tag of publication type (preprint/peer-reviewed) and to lemmatise the abstract in preparation to the NLP. This notebook also includes a visualisation of the type of publication over time. The data used for this project was obtained from the metadata.csv file from the CORD-19 2020-08-05 release
